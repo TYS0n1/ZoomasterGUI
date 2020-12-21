@@ -15,11 +15,10 @@ namespace Zoomaster {
 
             if (nameInput == "" || dayInput == "" || linkInput == "" 
                 || startTimeInput == null || endTimeInput == null 
-                || isVaidPeriod(startTimeInput, endTimeInput, dayInput, listLesson) == false) {
+                || isVaidPeriod(startTimeInput, endTimeInput, dayInput, listLesson, 1, -1) == false
+                || Lesson.stringIsDayOfWeek(dayInput) == false) {
                 return 0;
             }
-
-            Debug.Assert(Lesson.stringIsDayOfWeek(dayInput));
 
             Lesson newLesson = new Lesson(nameInput, dayInput, startTimeInput, endTimeInput, linkInput, new System.Collections.ArrayList());
             listLesson[listLesson.noLessons] = newLesson;

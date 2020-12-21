@@ -37,6 +37,7 @@ namespace Zoomaster {
         private void LaunchSelected_Click(object sender, EventArgs e) {
             int index = comboBox1.SelectedIndex;
             if (index == -1) {
+                resetTextBoxes();
                 return;
             }
 

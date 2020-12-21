@@ -56,7 +56,7 @@ namespace Zoomaster {
             return true;
         }
 
-        public static bool isVaidPeriod(String startTime, String endTime, String day, LessonList listLesson) {
+        public static bool isVaidPeriod(String startTime, String endTime, String day, LessonList listLesson, int setting, int index) {
             if (String.Compare(startTime, endTime, StringComparison.OrdinalIgnoreCase) > 0) {
                 return false;
             }
@@ -69,6 +69,10 @@ namespace Zoomaster {
 
             for (int i = 0; i < listLesson.noLessons; i++) {
                 if (listLesson[i].getDay() != day) {
+                    continue;
+                }
+
+                if (setting == 2 && index == i) {
                     continue;
                 }
 

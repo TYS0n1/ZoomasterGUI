@@ -68,7 +68,7 @@ namespace Zoomaster {
                 }
             }
 
-            SelectedLabel.Text = defaultText;
+            SelectedLabel.Text = defaultText + "NIL";
             LessonListView.Items.Clear();
             LessonListView.Items.AddRange(listviewItems);
         }
@@ -124,6 +124,7 @@ namespace Zoomaster {
 
             Storage.reloadFromFile(pathData, listLesson);
             displayLessonList();
+            lessonSelectedIndex = -1;
         }
 
         private void EditButton_Click(object sender, EventArgs e) {
@@ -136,6 +137,7 @@ namespace Zoomaster {
 
             Storage.reloadFromFile(pathData, listLesson);
             displayLessonList();
+            lessonSelectedIndex = -1;
         }
 
         private void LinkButton_Click(object sender, EventArgs e) {
@@ -148,6 +150,7 @@ namespace Zoomaster {
 
             Storage.reloadFromFile(pathData, listLesson);
             displayLessonList();
+            lessonSelectedIndex = -1;
         }
     }
 }

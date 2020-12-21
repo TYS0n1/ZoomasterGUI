@@ -138,7 +138,7 @@
             this.LinkButton.UseVisualStyleBackColor = true;
             this.LinkButton.Click += new System.EventHandler(this.LinkButton_Click);
             // 
-            // LaunchLessonForm
+            // SettingLessonForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -155,9 +155,9 @@
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1083, 731);
             this.MinimumSize = new System.Drawing.Size(1083, 731);
-            this.Name = "LaunchLessonForm";
+            this.Name = "SettingLessonForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LaunchLessonForm";
+            this.Text = "Lessons in program";
             this.ResumeLayout(false);
             this.PerformLayout();
 

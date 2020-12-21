@@ -14,6 +14,18 @@ namespace Zoomaster {
             if (setting == 1) {
                 listLesson[index].addLink(linkInput);
             } else if (setting == 2) {
+                bool isExist = false;
+
+                for (int i = 0; i < listLesson[index].getOtherLinks().Count; i++) {
+                    if (listLesson[index].getOtherLinks()[i].Equals(linkInput) == true) {
+                        isExist = true;
+                    }
+                }
+
+                if (isExist == false) {
+                    return 0;
+                }
+
                 listLesson[index].removeLink(linkInput);
             }
             

@@ -100,7 +100,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(227, 52);
             this.button3.TabIndex = 3;
-            this.button3.Text = "Go back to main menu";
+            this.button3.Text = "Return to main menu";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -121,7 +121,7 @@
             this.MaximumSize = new System.Drawing.Size(816, 489);
             this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "LaunchLessonForm";
-            this.Text = "LaunchLessonForm";
+            this.Text = "Launch lessons";
             this.ResumeLayout(false);
             this.PerformLayout();
 
