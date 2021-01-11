@@ -1,13 +1,1 @@
-LAJ1201 A1 Tutorial   Monday   0800   1000   https://luminus.nus.edu.sg/modules/d05ef6f3-d2af-428e-b54a-857efee5efd9   /e
-GEH1034 Tutorial   Monday   1400   1600   https://luminus.nus.edu.sg/modules/df973bb5-0b59-4580-982c-ef402d071d55   /e
-CFG1002   Tuesday   0800   1000   https://luminus.nus.edu.sg/modules/4e56e1ed-890a-4ea8-a6fd-06b937f13f14   /e
-CS2101 Tutorial   Tuesday   1000   1200   https://luminus.nus.edu.sg/modules/895148ac-63ef-4044-acf4-1ec29068d9e0   /e
-LAJ1201 Lecture   Tuesday   1400   1600   https://luminus.nus.edu.sg/modules/d05ef6f3-d2af-428e-b54a-857efee5efd9   /e
-CG2271 Lecture   Wednesday   0900   1100   https://luminus.nus.edu.sg/modules/e472b320-ff28-4018-b9d2-29a2b84ac046   /e
-CS2113T Tutorial   Wednesday   1100   1200   https://luminus.nus.edu.sg/modules/dd7206fb-b22d-4a82-9c3b-f761a1f77ac8   /e
-GEH1034 Lecture   Wednesday   1400   1600   https://luminus.nus.edu.sg/modules/df973bb5-0b59-4580-982c-ef402d071d55   /e
-LAJ1201 B8 Tutorial   Thursday   0800   1000   https://luminus.nus.edu.sg/modules/d05ef6f3-d2af-428e-b54a-857efee5efd9   /e
-CG2271 Tutorial   Thursday   1100   1200   https://luminus.nus.edu.sg/modules/e472b320-ff28-4018-b9d2-29a2b84ac046   /e
-CG2271 Lab   Friday   0800   1000   https://luminus.nus.edu.sg/modules/e472b320-ff28-4018-b9d2-29a2b84ac046   /e
-CS2101 Tutorial   Friday   1000   1200   https://luminus.nus.edu.sg/modules/895148ac-63ef-4044-acf4-1ec29068d9e0   /e
-CS2113T Lecture   Friday   1600   1800   https://luminus.nus.edu.sg/modules/dd7206fb-b22d-4a82-9c3b-f761a1f77ac8   /e
+

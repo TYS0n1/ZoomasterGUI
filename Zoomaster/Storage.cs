@@ -31,7 +31,7 @@ namespace Zoomaster {
             String line;
             int i = 0;
 
-            while ((line = sr.ReadLine()) != null) {
+            while (!((line = sr.ReadLine()).Equals(""))) {
                 listLesson[i] = decodeLine(line);
                 i++;
             }
